@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 40%;
+    height: 40%;
+    background: aqua;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.inputs {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs input {
+    height: 1.5rem;
+    width: 35%;
+    padding: .3rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    padding-left: 2rem;
+    font-size: 1.1rem;
+
+}
+
+.actions {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth {
+    width: 40%;
+    background: #1d4575;
+    border-radius: 1rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.auth, .register a {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.register {
+    width: 40%;
+    background: #909396;
+    border-radius: 1rem;
+    margin-top: .5rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
