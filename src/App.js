@@ -3,6 +3,7 @@ import Login from "./screens/login/Login";
 import Register from "./screens/register/Register";
 import {BrowserRouter as Router, Redirect, Route, Switch} from "react-router-dom";
 import Principal from "./screens/principal/principal";
+import AddItem from './screens/add-item/add-item'
 import NotFound from "./screens/error/error";
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
                 </Route>
                 <Route path="/register">
                     <Register/>
+                </Route>
+                <Route path="/additem">
+                    <AddItem/>
                 </Route>
                 <Route component={NotFound}/>
             </Switch>

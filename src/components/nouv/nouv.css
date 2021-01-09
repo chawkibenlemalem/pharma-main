@@ -1,0 +1,20 @@
+.nouv-container {
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.nouv-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sub-container-nouv {
+    width: 80%;
+    height: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,64 @@
+
+.nouv-card-container {
+    width: 18rem;
+    height: 27rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.nouv-card-img-container {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .3rem;
+}
+
+.nouv-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.nouv-card-description-container, .nouv-card-price-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.nouv-card-description, .nouv-card-price {
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 80%;
+}
+
+.nouv-card-price {
+    font-weight: bold;
+}
+
+.nou-card-actions {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nouv-card-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 80%;
+    background-color: #80848a;
+    border-radius: .2rem;
+}
+
+.nouv-card-btn:hover {
+    background-color: #1d4575;
+}
